@@ -11,6 +11,6 @@ x = np.arange(-10, 10, delta_x)
 fx = f(x) * delta_x
 # Compute the running sum
 y = fx.cumsum()
-# Plot
+# Plot the graph
 plt.plot(x, y)
 plt.show()
